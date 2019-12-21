@@ -1,0 +1,80 @@
+.heading{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.button{
+  display: inline-block;
+  margin-top: 10px;
+  background: #F6E601;
+  border-radius: 5px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+.button_edit{
+  background: #000;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff !important;
+}
+.button_delete{
+  background: #FA0A12;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #fff !important;
+}
+.content{
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.todo_title {
+  cursor: pointer;
+}
+.completed-todo {
+  text-decoration: line-through;
+}
+.tab_list{
+  margin: 40px 0;
+  text-align: center;
+}
+.tab_list > span {
+  padding: 10px 15px;
+  border: 1px solid #282c34;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.tab_list > span.active {
+  background-color: #000;
+  color: #F6E601;
+}
+.row{
+  margin: 0;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+.list_menu{
+  padding: 0;
+  margin: 0;
+}
+.list_row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
